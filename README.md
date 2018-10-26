@@ -17,7 +17,8 @@ Du trenger:
 <br>
 Koble opp delene som vist på tegningen. 
 <br>
-Siden Arduino IDE programvaren ikke kommer med støtte for ATtiny, må dette legges til manuelt. 
+Siden Arduino IDE programvaren ikke kommer med støtte for ATtiny, må dette legges til manuelt.
+<vr>
 Kopier adressen under
 <pre>
 https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
