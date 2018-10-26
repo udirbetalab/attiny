@@ -55,7 +55,7 @@ Her ser dere oversikten over alle pinnene på ATtiny. Markering på ATtiny (lite
   Verifiser koden og overfør deretter koden til ATtiny.<br>
   Når koden er overført kan du koble fra ATtiny og prøve den i en enkel krets som vist under.<br>
 <br>
-<img src="https://github.com/udirbetalab/attiny/blob/master/files/ATtiny%20blink.png">
+<img src="https://github.com/udirbetalab/attiny/blob/master/files/ATtiny%20blink%20klokkebatteri.png">
 <br>
 Det er også mulig å koble til neopixel til ATtiny. Flere eksempler på koder finner dere i mappen Eksempler.
 <img src="https://github.com/udirbetalab/attiny/blob/master/files/ATtiny%20neopixel%20ring.png">
