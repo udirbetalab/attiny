@@ -50,7 +50,11 @@ Før du kan overføre dine koder til ATtiny ved hjelp av Arduino Uno er det noen
   Gå inn i koden og endre LED_BUILTIN / 13 til 0 som er pine 5 på ATtiny.<br>
   Verifiser koden og overfør deretter koden til ATtiny.<br>
   Når koden er overført kan du koble fra ATtiny og prøve den i en enkel krets som vist under.<br>
-  
+<br>
+<img src="https://github.com/udirbetalab/attiny/blob/master/files/ATtiny%20blink.png">
+<br>
+Det er også mulig å koble til neopixel til ATtiny. Flere eksempler på koder finner dere i mappen Eksempler.
+
   
   
 
