@@ -55,6 +55,7 @@ Før du kan overføre dine koder til ATtiny ved hjelp av Arduino Uno er det noen
 <img src="https://github.com/udirbetalab/attiny/blob/master/files/ATtiny%20blink.png">
 <br>
 Det er også mulig å koble til neopixel til ATtiny. Flere eksempler på koder finner dere i mappen Eksempler.
+<img src="https://github.com/udirbetalab/attiny/blob/master/files/ATtiny%20neopixel%20ring.png">
 
   
   
