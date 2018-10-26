@@ -28,22 +28,29 @@ Gå til Fil -> Instillinger og legg til linken over i feltet <b>Flere "Boards Ma
 <br>
 Før du kan overføre dine koder til ATtiny ved hjelp av Arduino Uno er det noen ting du må gjøre.
 <br>
-1. klargjøring av Arduino Uno.
+1. klargjøring av Arduino Uno.<br>
   Arduino Uno må ha rett kode installert.<br>
-  Velg Arduino Uno som kort og rett USB port under verktøy.
+  Velg Arduino Uno som kort og rett USB port under verktøy.<br>
   Gå til fil -> eksempler -> 11.ArduinoISP -> ArduinoISP og hent koden<br>
-  Overfør koden til Arduino uten at kondensatoren er koblet til
-  Etter overføing av koden setter du tilbake kondensatoren.
+  Overfør koden til Arduino uten at kondensatoren er koblet til.<br>
+  Etter overføing av koden setter du tilbake kondensatoren.<br>
   
-2. klargjøring av ATtiny
+2. klargjøring av ATtiny<br>
   ATtiny kommer ofte standard med 1 Mhz intern klokke. Det anbefales at den oppgraderes til 8 Mhz.
-  Velg ATtiny som kort.
-  Klokke til 8Mhz intern (Ikke bruk ekstern!!).
-  Bruk samme port som Arduino Uno har på din datamaskin.
-  Klikk på "Skriv oppstartslaster" / "Burn Bootloader"
-  ATtiny er nå klar for overøring av koder.
+  Velg ATtiny som kort.<br>
+  Klokke til 8Mhz intern (Ikke bruk ekstern!!).<br>
+  Bruk samme port som Arduino Uno har på din datamaskin.<br>
+  Klikk på "Skriv oppstartslaster" / "Burn Bootloader".<br>
+  ATtiny er nå klar for overøring av koder.<br>
+
+<img src="https://cdn.sparkfun.com/r/600-600/assets/f/8/f/d/9/52713d5b757b7fc0658b4567.png">
   
- 3. første program på ATtiny
+ 3. første program på ATtiny - Blink<br>
+  Gå til fil -> eksempler -> 01.Basics -> Blink.<br>
+  Gå inn i koden og endre LED_BUILTIN / 13 til 0 som er pine 5 på ATtiny.<br>
+  Verifiser koden og overfør deretter koden til ATtiny.<br>
+  Når koden er overført kan du koble fra ATtiny og prøve den i en enkel krets som vist under.<br>
+  
   
   
 
