@@ -8,3 +8,5 @@ neopixel.ino<br>
 <br>
 trafikklys.ino<br>
 <img src="https://github.com/udirbetalab/attiny/blob/master/files/Trafikklys%20med%20ATTINY%20og%204%20neopixel.png" width="300">
+neopixel_twinkle.ino<br>
+<img src="https://github.com/udirbetalab/attiny/blob/master/files/ATtiny%20Twinkle%20neopixel.png" width="300">
