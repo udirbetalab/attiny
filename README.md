@@ -14,5 +14,14 @@ Du trenger:
 1x 10uF kondensator<br>
 1x koblingsbrett<br>
 6x jumperkabler<br>
+<br>
+Koble opp delene som vist på tegningen. 
+<br>
+Siden Arduino IDE programvaren ikke kommer med støtte for ATtiny, må dette legges til manuelt. 
+Kopier adressen under
+<pre>
+https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+</pre>
+Gå til Fil -> Instillinger og legg til linken over i feltet <b>Flere "Boards Manager" URLer</b><br>
 
 
