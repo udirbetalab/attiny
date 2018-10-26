@@ -44,6 +44,7 @@ Før du kan overføre dine koder til ATtiny ved hjelp av Arduino Uno er det noen
   ATtiny er nå klar for overøring av koder.<br>
 
 <img src="https://cdn.sparkfun.com/r/600-600/assets/f/8/f/d/9/52713d5b757b7fc0658b4567.png">
+<i><sub>Drawing from Sparkfun</i></sub> 
   
  3. første program på ATtiny - Blink<br>
   Gå til fil -> eksempler -> 01.Basics -> Blink.<br>
