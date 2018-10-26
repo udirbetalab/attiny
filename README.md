@@ -37,7 +37,7 @@ Før du kan overføre dine koder til ATtiny ved hjelp av Arduino Uno er det noen
   Etter overføing av koden setter du tilbake kondensatoren.<br>
   
 2. klargjøring av ATtiny<br>
-  ATtiny kommer ofte standard med 1 Mhz intern klokke. Det anbefales at den oppgraderes til 8 Mhz.
+  ATtiny kommer ofte standard med 1 Mhz intern klokke. Det anbefales at den oppgraderes til 8 Mhz.<br>
   Velg ATtiny som kort.<br>
   Klokke til 8Mhz intern (Ikke bruk ekstern!!).<br>
   Bruk samme port som Arduino Uno har på din datamaskin.<br>
