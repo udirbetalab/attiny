@@ -24,7 +24,8 @@ Kopier adressen under
 https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
 </pre>
 Gå til Fil -> Instillinger og legg til linken over i feltet <b>Flere "Boards Manager" URLer</b><br>
-<img src="https://github.com/udirbetalab/attiny/blob/master/files/nye_kort_Arduino.png">
+<img src="https://github.com/udirbetalab/attiny/blob/master/files/nye_kort_Arduino.png"><br>
+Start Arduino IDE programmet på nytt.<br>
 <br>
 Før du kan overføre dine koder til ATtiny ved hjelp av Arduino Uno er det noen ting du må gjøre.
 <br>
