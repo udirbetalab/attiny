@@ -43,6 +43,9 @@ Før du kan overføre dine koder til ATtiny ved hjelp av Arduino Uno er det noen
   Bruk samme port som Arduino Uno har på din datamaskin.<br>
   Klikk på "Skriv oppstartslaster" / "Burn Bootloader".<br>
   ATtiny er nå klar for overøring av koder.<br>
+<img src="https://github.com/udirbetalab/attiny/blob/master/files/attiny.png">
+<br>
+Her ser dere oversikten over alle pinnene på ATtiny. Markering på ATtiny (liten sirkel) er alltid pinne 1. 
 
 <img src="https://cdn.sparkfun.com/r/600-600/assets/f/8/f/d/9/52713d5b757b7fc0658b4567.png"><i><sub>Drawing from Sparkfun</i></sub> 
   
