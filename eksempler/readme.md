@@ -1,4 +1,4 @@
-# noen eksemplekoder
+# noen eksempelkoder
 
 blink.ino<br>
 <img src="https://github.com/udirbetalab/attiny/blob/master/files/ATtiny%20blink.png" width="300">
