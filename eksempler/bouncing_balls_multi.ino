@@ -1,20 +1,23 @@
-#include <Adafruit_NeoPixel.h>
-#define PIN 0
-#define NUM_LEDS 10
+// from https://github.com/Taki7o7
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, PIN, NEO_GRBW + NEO_KHZ800);
+#include <Adafruit_NeoPixel.h>
+#define PIN 0  //Defines the Datapin for NeoPixel
+#define NUM_LEDS 10 //Define the amount of neopixels you are using. I use 60 neopixels for this code
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
 }
 
-// *** REPLACE FROM HERE ***
+
 void loop() {
-  strip.setBrightness(10);
-  byte colors[3][3] = { {0xff, 0,0}, 
-                        {0xff, 0xff, 0xff}, 
-                        {0   , 0   , 0xff} };
+  byte colors[3][3] = { //{0x14, 0   , 0   }, //ROT  
+                        {0   , 0x14, 0   }, //GRUEN
+                        {0x14, 0x14, 0   }, //GELB
+                        //{0x14, 0x14, 0x14}, //WEISS
+                        //{0x14, 0   , 0x14}, //PURPLE
+                        {0   , 0   , 0x14} }; //BLAU
 
   BouncingColoredBalls(3, colors);
 }
@@ -23,7 +26,7 @@ void BouncingColoredBalls(int BallCount, byte colors[][3]) {
   float Gravity = -9.81;
   int StartHeight = 1;
   
-  float Height[BallCount];  
+  float Height[BallCount];
   float ImpactVelocityStart = sqrt( -2 * Gravity * StartHeight );
   float ImpactVelocity[BallCount];
   float TimeSinceLastBounce[BallCount];
@@ -65,7 +68,7 @@ void BouncingColoredBalls(int BallCount, byte colors[][3]) {
     setAll(0,0,0);
   }
 }
-// *** REPLACE TO HERE ***
+
 
 void showStrip() {
  #ifdef ADAFRUIT_NEOPIXEL_H 
